@@ -1,0 +1,14 @@
+# This file is all you need to download. Put it in an empty folder and run:
+#
+#   docker compose run --rm klatch mix episodes/test
+#
+# Docker fetches the code from GitHub and builds it on the first run.
+# To update to the newest code later:  docker compose build --no-cache
+
+services:
+  klatch:
+    build: https://github.com/seetee/klatch.git#main
+    # Run as you, not as root, so the files it writes belong to you.
+    user: "${UID:-1000}:${GID:-1000}"
+    volumes:
+      - .:/work

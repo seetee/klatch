@@ -359,6 +359,10 @@ that must each be placed on an absolute timeline and padded with silence.
 - **Phase 1 — the pipeline, against hand-dropped files.** Normalise each track, mix,
   `loudnorm` to -16 LUFS, intro/outro concat → MP3 and Opus. Record a test session
   however is easiest. *Deliberately before any platform work.*
+  **Status 2026-11-14:** `klatch mix` works and has mixed one real 73-minute
+  two-person recording to −16.5 LUFS in about five minutes. The single
+  `docker-compose.yml` building from the GitHub URL is confirmed working. Still
+  missing: trimming dead air, `!cut`, and a session with all six.
 - **Phase 2 — publish.** archive.org upload, the layered feed, the static site with
   the Podlove player. One automated check that every PSP-1 required element is in the
   feed. Then hand the feed to YouTube, which makes a static-image video per episode

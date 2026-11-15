@@ -33,7 +33,7 @@ group or for something that does not exist yet.
 | Numbering | Season = year. Episode = one running number from 1, never reset. Shown zero-padded: `e0037`. |
 | Episode title | `e0037 - Titel`, in the one plain title field. *Provisional.* |
 | Episode ID | `samkvamspodden-2026v47`. See "Episode IDs". **Permanent.** |
-| Cover | Henrik makes it. A typographic placeholder until then. One cover for everything, no per-episode art. |
+| Cover | Henrik makes it. A typographic placeholder until then: made 2026-11-15 as `assets/cover.png`, black `#0b0c07` on yellow `#e5cf77` in Cheque Black, from Samkväm's design system. One cover for everything, no per-episode art. |
 | Avatars | Henrik makes them. Initial-in-a-circle placeholders until then. |
 | Licence | **[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0/deed.sv)**, as All In IT Radio had. `© 2026 Samkvämsgänget. CC BY-ND 4.0.` **Permanent per released episode.** |
 | Domain | `samkvam.online`, owned by Kenneth at Loopia, yearly renewal. Henrik is the backup. |
